@@ -1,0 +1,29 @@
+/* ---------------------------------新闻内容页面的布局*/
+.news_body{
+    width:1024px;
+    margin:0 auto;
+    text-align:center;
+    border-bottom:2px solid #000;
+}
+.news_title{
+    display:inline-block;
+    font-size:40px;
+}
+.news_img{
+    width:70%;
+    margin:0 auto;
+}
+#nc_commentSet{
+    width:1024px;
+    margin:10px auto;
+    border-bottom:2px solid #000;
+}
+#comment_get{
+    width:1024px;
+    margin:10px auto;
+}
+.comment_content{
+    margin-top:20px;
+    width:80%;
+    border-bottom:2px solid #000;
+}

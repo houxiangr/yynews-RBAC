@@ -1,0 +1,102 @@
+#banner{
+	position:relative;
+	float:left;
+    width:629px;
+	height:507.6px;
+	overflow:hidden;
+}
+#banner .pic{
+	width:629px;
+	height:400px;
+	overflow:hidden;
+	position:absolute;
+	top:30px;
+	left:-100px;
+	opacity:0;
+/*	display:none;*/
+	transition:ease-out 1s;
+	-moz-transition:ease-out 1s;
+	-o-transition:ease-out 1s;
+	-wedkit-transition:ease-out 1s;
+	font-size:0px;
+	z-index:-1;
+}
+#banner .pic a{
+	position:relative;
+	display:block;
+	width:100%;
+	height:100%;
+}
+#banner .pic img{
+	width:100%;
+	height:100%;
+}
+#banner .pic a span{
+	font-size:45px;
+	position:absolute;
+	top:20%;
+	left:30%;
+	display:block;
+	background:rgba(255,255,255,0.8);
+	/*width:50%;
+	height:80px;*/
+	color:#5a5353;
+	transition:ease-out 2s;
+	-moz-transition:ease-out 2s;
+	-o-transition:ease-out 2s;
+	-wedkit-transition:ease-out 2s;
+}
+#banner .pic_active a span{
+	top:0px;
+	left:0px;
+}
+#banner .pic_active{
+	top:50px;
+	left:0px;
+	opacity:1;
+	z-index:0;
+/*	display:block;*/
+}
+/*轮播样式结束*/
+/*轮播按钮样式*/
+#contral_box{
+	font-size:0;
+	width:100%;
+	height:18px;
+/*	background:black;*/
+	position:absolute;
+	bottom:40px;
+	left:0;
+}
+#contral_box .contral{
+	position:relative;
+	display:inline-block;
+	width:16.66%;
+	height:18px;
+	background:rgba(174,174,174,0.5);
+}
+#contral_box .contral:hover{
+	background:rgba(110,96,191,0.5);
+}
+#contral_box .contral_active{
+	background:rgba(110,96,191,1);
+}
+#contral_box .contral_active:hover{
+	background:rgba(110,96,191,1);
+}
+/*使用伪元素制作导航列表项分隔线*/
+#contral_box .contral:after{
+             content:"";
+             position:absolute;
+             right:0px;
+             top:25%;
+             height:50%;
+             width:1px;
+             background:linear-gradient(to bottom,rgb(186,176,229),rgb(68,56,156),rgb(186,176,229));
+            
+}
+/*删除第一项和最后一项导航分隔线*/
+#contral_box .contral:last-child:after{
+             height:0px;
+             width:0px;
+}

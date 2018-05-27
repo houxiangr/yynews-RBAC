@@ -1,0 +1,53 @@
+[ 2017-06-20T14:01:46+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : select newsId,title from news where catId=Array
+
+[ 2017-06-20T14:01:46+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : select newsId,title from news where catId=Array
+
+[ 2017-06-20T14:01:47+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : select newsId,title from news where catId=Array
+
+[ 2017-06-20T14:03:02+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select newsId,title from news where catId=
+
+[ 2017-06-20T14:03:03+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select newsId,title from news where catId=
+
+[ 2017-06-20T14:03:03+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select newsId,title from news where catId=
+
+[ 2017-06-20T14:03:14+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1054:Unknown column '类别一' in 'where clause'
+ [ SQL语句 ] : select newsId,title from news where catId=类别一
+
+[ 2017-06-20T14:03:15+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1054:Unknown column '类别一' in 'where clause'
+ [ SQL语句 ] : select newsId,title from news where catId=类别一
+
+[ 2017-06-20T14:03:15+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: 1054:Unknown column '类别一' in 'where clause'
+ [ SQL语句 ] : select newsId,title from news where catId=类别一
+
+[ 2017-06-20T18:36:19+08:00 ] ::1 /yynews/index.php/Home/News/essaydetail/id/28
+ERR: 非法操作:essaydetail
+
+[ 2017-06-20T18:41:27+08:00 ] ::1 /yynews/index.php/Home/News/essaydetail/id/28
+ERR: 非法操作:essaydetail
+
+[ 2017-06-20T18:41:42+08:00 ] ::1 /yynews/index.php/Home/News/essaydetail/id/28
+ERR: 非法操作:essaydetail
+
+[ 2017-06-20T18:42:01+08:00 ] ::1 /yynews/index.php/Home/News/shownews/newsid/28
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : update news set hot=hot+1 where newsId=
+
+[ 2017-06-20T23:39:44+08:00 ] ::1 /yynews/index.php/Home/News/shownews?newsId=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : update news set hot=hot+1 where newsId=
+

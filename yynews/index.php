@@ -1,0 +1,9 @@
+<?php
+define("APP_DEBUG",true);
+//设置一些系统常量
+define("IMG_URL","/yynews/Public/images/");
+define("JS_URL","/yynews/Public/js/");
+define("CSS_URL","/yynews/Public/css/");
+//使用Thinkphp开发yynews
+include("../ThinkPHP/ThinkPHP.php");
+?>

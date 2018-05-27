@@ -1,0 +1,69 @@
+[ 2017-10-08T23:15:20+08:00 ] ::1 /yynews/index.php/Admin/Manager/login
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:28+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:43+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:44+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:44+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:44+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:44+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:45+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:45+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:15:45+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+
+[ 2017-10-08T23:16:30+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1049] Unknown database 'jingwangdian'
+
+[ 2017-10-08T23:16:30+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1049] Unknown database 'jingwangdian'
+
+[ 2017-10-08T23:16:31+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1049] Unknown database 'jingwangdian'
+
+[ 2017-10-08T23:16:31+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1049] Unknown database 'jingwangdian'
+
+[ 2017-10-08T23:16:43+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-10-08T23:16:46+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-10-08T23:16:48+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-10-08T23:17:22+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-10-08T23:17:42+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-10-08T23:17:46+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-10-08T23:17:55+08:00 ] ::1 /yynews/index.php/Admin/Manager/test
+ERR: SQLSTATE[HY000] [1130] Host '218.76.15.235' is not allowed to connect to this MariaDB server
+

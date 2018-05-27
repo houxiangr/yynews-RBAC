@@ -1,0 +1,6 @@
+[ 2018-05-24T08:00:57+08:00 ] ::1 /yynews/
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2018-05-24T08:01:55+08:00 ] ::1 /yynews/index.php/Home/Index/index.html
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+

@@ -1,0 +1,15 @@
+[ 2018-05-27T16:08:40+08:00 ] ::1 /yynews/index.php
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2018-05-27T16:10:24+08:00 ] ::1 /yynews/index.php/Home/Index/index
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2018-05-27T16:15:47+08:00 ] ::1 /yynews/index.php
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2018-05-27T16:23:00+08:00 ] ::1 /yynews/index.php
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2018-05-27T16:23:02+08:00 ] ::1 /yynews/index.php
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+

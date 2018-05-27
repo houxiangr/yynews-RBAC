@@ -1,0 +1,7 @@
+[ 2017-06-21T00:09:19+08:00 ] ::1 /yynews/index.php/Admin/Power/linkManager.html?linkId=1
+ERR: 1146:Table 'yynews.link' doesn't exist
+ [ SQL语句 ] : delete from link where id=1
+
+[ 2017-06-21T21:48:26+08:00 ] ::1 /yynews/index.php/Admin/Power/accessManager
+ERR: 非法操作:accessManager
+

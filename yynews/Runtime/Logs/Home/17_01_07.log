@@ -1,0 +1,28 @@
+[ 2017-01-07T11:20:26+08:00 ] ::1 /yynews/index.php/Home/News/addcomment
+ERR: 非法操作:addcomment
+
+[ 2017-01-07T11:21:17+08:00 ] ::1 /yynews/index.php/Home/News/addcomment
+ERR: 非法操作:addcomment
+
+[ 2017-01-07T11:21:28+08:00 ] ::1 /yynews/index.php/Home/News/addcomment
+ERR: 非法操作:addcomment
+
+[ 2017-01-07T11:26:54+08:00 ] ::1 /yynews/index.php/Home/News/Index/index.html
+ERR: 非法操作:Index
+
+[ 2017-01-07T11:27:39+08:00 ] ::1 /yynews/index.php/Home/News/Index/index.html
+ERR: 非法操作:Index
+
+[ 2017-01-07T11:28:12+08:00 ] ::1 /yynews/index.php/Home/News//Index/index.html
+ERR: 非法操作:Index
+
+[ 2017-01-07T11:28:51+08:00 ] ::1 /yynews/index.php/Home/News/..Index/index.html
+ERR: 非法操作:..Index
+
+[ 2017-01-07T11:34:10+08:00 ] ::1 /yynews/index.php/Home/News/showmews
+ERR: 非法操作:showmews
+
+[ 2017-01-07T21:33:49+08:00 ] ::1 /yynews/index.php/Home/News/shownews/newsId/18.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '18,'::1')' at line 1
+ [ SQL语句 ] : insert into comments (content,createTime,newsId,userIP)values('评论一',,18,'::1')
+

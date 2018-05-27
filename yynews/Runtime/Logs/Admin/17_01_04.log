@@ -1,0 +1,109 @@
+[ 2017-01-04T17:06:10+08:00 ] ::1 /yynews/index.php/Admin/Manager/login
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and userPwd=' at line 1
+ [ SQL语句 ] : select * from admin where userName= and userPwd=
+
+[ 2017-01-04T17:06:51+08:00 ] ::1 /yynews/index.php/Admin/Manager/login
+ERR: 1054:Unknown column 'fdsa' in 'where clause'
+ [ SQL语句 ] : select * from admin where userName=fdsa and userPwd=fds
+
+[ 2017-01-04T17:38:40+08:00 ] ::1 /yynews/index.php/Admin/Manager/register
+ERR: Think\Model:excute方法不存在！
+
+[ 2017-01-04T17:39:57+08:00 ] ::1 /yynews/index.php/Admin/Manager/register
+ERR: Think\Model:excute方法不存在！
+
+[ 2017-01-04T21:07:32+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/Power/Power\newsManager.html
+
+[ 2017-01-04T21:07:32+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/Power/Power\newsManager.html
+
+[ 2017-01-04T21:07:32+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/Power/Power\newsManager.html
+
+[ 2017-01-04T21:07:33+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/Power/Power\newsManager.html
+
+[ 2017-01-04T21:08:36+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: Think\Controller:redirce方法不存在！
+
+[ 2017-01-04T21:08:37+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: Think\Controller:redirce方法不存在！
+
+[ 2017-01-04T21:08:37+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: Think\Controller:redirce方法不存在！
+
+[ 2017-01-04T21:08:38+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: Think\Controller:redirce方法不存在！
+
+[ 2017-01-04T21:08:38+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: Think\Controller:redirce方法不存在！
+
+[ 2017-01-04T21:08:38+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete
+ERR: Think\Controller:redirce方法不存在！
+
+[ 2017-01-04T21:11:37+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete?newsId=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : delete from news where newsId=
+
+[ 2017-01-04T21:12:36+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete?newsId=1
+ERR: :
+ [ SQL语句 ] : delete from news where newsId=1
+
+[ 2017-01-04T21:12:51+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete?newsId=2
+ERR: :
+ [ SQL语句 ] : delete from news where newsId=2
+
+[ 2017-01-04T21:13:37+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete?newsId=2
+ERR: :
+ [ SQL语句 ] : delete from news where newsId=2
+
+[ 2017-01-04T21:13:41+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete?newsId=2
+ERR: :
+ [ SQL语句 ] : delete from news where newsId=2
+
+[ 2017-01-04T21:14:03+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete?newsId=3
+ERR: :
+ [ SQL语句 ] : delete from news where newsId=3
+
+[ 2017-01-04T21:15:52+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete?newsId=4
+ERR: :
+ [ SQL语句 ] : delete from news where newsId=4
+
+[ 2017-01-04T21:19:08+08:00 ] ::1 /yynews/index.php/Admin/Power/newsDelete?newsId=5
+ERR: Think\Model:excute方法不存在！
+
+[ 2017-01-04T22:22:50+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify.php
+ERR: 非法操作:newsModify.php
+
+[ 2017-01-04T22:24:04+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify.php
+ERR: 非法操作:newsModify.php
+
+[ 2017-01-04T22:24:59+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'updata news set title='凤凰新闻',content='凤凰新闻，你值得拥有' wh' at line 1
+ [ SQL语句 ] : updata news set title='凤凰新闻',content='凤凰新闻，你值得拥有' where newsId=
+
+[ 2017-01-04T22:26:15+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'updata news set title='凤凰新闻',content='凤凰新闻，你值得拥有' wh' at line 1
+ [ SQL语句 ] : updata news set title='凤凰新闻',content='凤凰新闻，你值得拥有' where newsId=
+
+[ 2017-01-04T22:29:20+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'updata news set title='凤凰新闻',content='凤凰新闻，你值得拥有' wh' at line 1
+ [ SQL语句 ] : updata news set title='凤凰新闻',content='凤凰新闻，你值得拥有' where newsId=
+
+[ 2017-01-04T22:29:53+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'updata news set title='凤凰新闻',content='凤凰新闻，你值得拥有' wh' at line 1
+ [ SQL语句 ] : updata news set title='凤凰新闻',content='凤凰新闻，你值得拥有' where newsId=6
+
+[ 2017-01-04T22:33:57+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify2
+ERR: 1054:Unknown column 'newsId' in 'where clause'
+ [ SQL语句 ] : update categories set catName=国际新闻 where newsId=6
+
+[ 2017-01-04T22:38:24+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify?newsId=6
+ERR: 1052:Column 'catId' in field list is ambiguous
+ [ SQL语句 ] : select newsId,title,news.content,catName,catId from news,categories where news.catId=categories.catId and newsId=6
+
+[ 2017-01-04T22:39:18+08:00 ] ::1 /yynews/index.php/Admin/Power/newsModify2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : update news set title='凤凰新闻',content='凤凰新闻，你值得拥有',catId='' where newsId=
+

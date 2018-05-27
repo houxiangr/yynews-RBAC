@@ -1,0 +1,27 @@
+[ 2017-01-03T15:14:49+08:00 ] ::1 /yynews/index.php/Home/Index/__CONTRALLER__ewslist?catId=4
+ERR: 非法操作:__CONTRALLER__ewslist
+
+[ 2017-01-03T15:15:50+08:00 ] ::1 /yynews/index.php/Home/Newsewslist?catId=4
+ERR: 无法加载控制器:Newsewslist
+
+[ 2017-01-03T15:16:26+08:00 ] ::1 /yynews/index.php/Home/Index/News/newslist?catId=4
+ERR: 非法操作:News
+
+[ 2017-01-03T15:16:46+08:00 ] ::1 /yynews/index.php/Home/Index/News/newslist?catId=4
+ERR: 非法操作:News
+
+[ 2017-01-03T15:16:47+08:00 ] ::1 /yynews/index.php/Home/Index/News/newslist?catId=4
+ERR: 非法操作:News
+
+[ 2017-01-03T21:25:19+08:00 ] ::1 /yynews/index.php
+ERR: Think\Model:mysql方法不存在！
+
+[ 2017-01-03T21:25:20+08:00 ] ::1 /yynews/index.php
+ERR: Think\Model:mysql方法不存在！
+
+[ 2017-01-03T22:09:25+08:00 ] ::1 /yynews/index.php/Home/Index/searchResult.php
+ERR: 非法操作:searchResult.php
+
+[ 2017-01-03T23:18:22+08:00 ] ::1 /yynews/index.php/Home/Index/searchResult.php
+ERR: 非法操作:searchResult.php
+

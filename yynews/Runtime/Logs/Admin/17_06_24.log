@@ -1,0 +1,297 @@
+[ 2017-06-24T00:56:19+08:00 ] ::1 /yynews/index.php/Admin/Power/linkManager
+ERR: 1054:Unknown column 'access_url' in 'field list'
+ [ SQL语句 ] : insert into access(access_name,access_url)values('','')
+
+[ 2017-06-24T01:16:44+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=1 where id=3 [ RunTime:0.0000s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-24T01:16:47+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=1 where id=3 [ RunTime:0.0010s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-24T01:16:53+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='categoryManager',status= where id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='categoryManager',status= where id=3
+
+[ 2017-06-24T01:16:58+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='categoryManager',status= where id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='categoryManager',status= where id=3
+
+[ 2017-06-24T01:17:03+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=2 where id=3 [ RunTime:0.1270s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-24T01:17:06+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=1 where id=3 [ RunTime:0.1440s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-24T01:17:51+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='友情链接管理',urls='linkManager',status=1 where id=4 [ RunTime:0.0000s ]
+SQL: select updata_time from access where id=4 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-24T01:17:55+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='友情链接管理',urls='',status=1 where id=4 [ RunTime:0.1400s ]
+SQL: select updata_time from access where id=4 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-24T01:18:15+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='友情链接管理',urls='linkManager',status=1 where id=4 [ RunTime:0.1550s ]
+SQL: select updata_time from access where id=4 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-24T01:18:18+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='友情链接管理',urls='linkManager',status=1 where id=4 [ RunTime:0.0010s ]
+SQL: select updata_time from access where id=4 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-24T01:20:56+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='categoryManager',status= where id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='categoryManager',status= where id=3
+
+[ 2017-06-24T01:21:04+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='',status= where id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='',status= where id=3
+
+[ 2017-06-24T01:21:07+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='',status= where id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=3' at line 1
+ [ SQL语句 ] : update access set access_name='类别管理',urls='',status= where id=3
+
+[ 2017-06-24T01:21:17+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=1 where id=3 [ RunTime:0.0000s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-24T01:21:46+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0050s ]
+SQL: update access set access_name='',urls='categoryManager',status=1 where id=3 [ RunTime:0.1650s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-24T01:22:19+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=1 where id=3 [ RunTime:0.1840s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-24T01:23:40+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=1 where id=3 [ RunTime:0.0010s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-24T01:23:43+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=0 where id=3 [ RunTime:0.1880s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-24T01:23:49+08:00 ] ::1 /yynews/index.php/Admin/RBAC/accessModify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\RBACController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\yynews\Admin\Controller\RBACController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: update access set access_name='类别管理',urls='categoryManager',status=1 where id=3 [ RunTime:0.4220s ]
+SQL: select updata_time from access where id=3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-24T13:45:00+08:00 ] ::1 /yynews/index.php/Admin/Power/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2017-06-24T13:45:32+08:00 ] ::1 /yynews/index.php/Admin/Power/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2017-06-24T13:45:46+08:00 ] ::1 /yynews/index.php/Admin/Power/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2017-06-24T13:45:46+08:00 ] ::1 /yynews/index.php/Admin/Power/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2017-06-24T13:52:56+08:00 ] ::1 /yynews/index.php/Admin/Power/usernameModify/username/admin
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/Power/usernameModify.html
+
+[ 2017-06-24T13:53:05+08:00 ] ::1 /yynews/index.php/Admin/Power/usernameModify/username/admin
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/Power/usernameModify.html
+
+[ 2017-06-24T14:11:46+08:00 ] ::1 /yynews/index.php/Admin/Power/usernameModify
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : select count(*) as count from admin where userName=admin and userPwd=10470c3b4b1fed12c3baac014be15fac67c6e815
+
+[ 2017-06-24T14:19:49+08:00 ] ::1 /yynews/index.php/Admin/Power/categoryManager
+ERR: 1054:Unknown column 'admin1' in 'where clause'
+ [ SQL语句 ] : select is_admin from admin where userName=admin1
+
+[ 2017-06-24T14:25:14+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T14:25:53+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T14:25:58+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T14:26:19+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T14:26:20+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T14:26:20+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T14:26:20+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T14:26:20+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T14:26:20+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userpasswordModify
+ERR: 非法操作:userpasswordModify
+
+[ 2017-06-24T22:41:50+08:00 ] ::1 /yynews/index.php/Admin/Power/categoryManager.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by catId' at line 1
+ [ SQL语句 ] : select * from categories prder by catId
+
+[ 2017-06-24T22:41:51+08:00 ] ::1 /yynews/index.php/Admin/Power/categoryManager.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by catId' at line 1
+ [ SQL语句 ] : select * from categories prder by catId
+
+[ 2017-06-24T23:06:38+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userModify/adminName/houxiang1111
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/RBAC/userModify.html
+
+[ 2017-06-24T23:06:42+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userModify/adminName/houxiang1111
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/RBAC/userModify.html
+
+[ 2017-06-24T23:07:05+08:00 ] ::1 /yynews/index.php/Admin/RBAC/userModify/adminName/houxiang1111
+ERR: 模板不存在:D:/xampp/htdocs/yynews/Admin/View/RBAC/userModify.html
+

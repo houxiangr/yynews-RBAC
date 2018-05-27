@@ -1,0 +1,12 @@
+#main{
+	width:100%;
+	min-width:1024px;
+}
+#content{
+	width:1024px;
+	margin:0 auto;
+}
+.title{
+	display:inline-block;
+	margin:0 auto;
+}

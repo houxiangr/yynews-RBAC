@@ -1,0 +1,12 @@
+[ 2017-01-09T00:17:05+08:00 ] ::1 /yynews/index.php/Admin/Manager/categoryManager
+ERR: 非法操作:categoryManager
+
+[ 2017-01-09T00:17:26+08:00 ] ::1 /yynews/index.php/Admin/Manager/categoryManager
+ERR: 非法操作:categoryManager
+
+[ 2017-01-09T00:17:46+08:00 ] ::1 /yynews/index.php/Admin/Manager/newsManager
+ERR: 非法操作:newsManager
+
+[ 2017-01-09T00:17:58+08:00 ] ::1 /yynews/index.php/Admin/Manager/categoryManager
+ERR: 非法操作:categoryManager
+

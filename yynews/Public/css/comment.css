@@ -1,0 +1,30 @@
+.comment_text{
+	width:163px;
+	height:34px;
+	border-radius:5px;
+	margin:10px;
+	font-size:20px;
+}
+.hidden{
+	display:none;
+}
+.selected{
+    background:#dedede;
+    cursor:default;
+}
+ /*-----------------------------------------------------------footer*/
+
+#footer{
+    height: 30px ;
+    background: #eee;
+    margin: 5px  auto;
+    padding-left: 320px;
+    padding-top: 7px;
+}
+#friend_link{
+    width:100%;
+    background:#eee;
+}
+.link{
+    font-size:16px;
+}

@@ -1,0 +1,4 @@
+[ 2017-01-08T20:17:39+08:00 ] ::1 /yynews/index.php/Admin/Power/newsAdd
+ERR: 1062:Duplicate entry '123' for key 'title'
+ [ SQL语句 ] : insert into news (title,content,catId,createTime)values('123','123',4,1483877858)
+

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>wellcome to yynews</title>
+    <link rel="stylesheet" href="/yynews/Public/css/Initial.css" />
+    <link rel="stylesheet" href="/yynews/Public/css/yynews.css" />
+    <link rel="stylesheet" href="/yynews/Public/css/comment.css" />
+    <script type="text/javascript">
+    function Foucus(obj){
+            //alert('注册成功!');
+            document.getElementById(obj).value = "";
+        }
+        </script>
+    </head>
+    <body>
+         <!--－－－－－－－－－－－－头部－－－－－－－－－－－－－－－－－－－－－-->
+        <div id="header">
+            <img src="<?php echo IMG_URL; ?>banner5.jpg">
+        </div>
+        <!--－－－－－－－－－－－－导航条和搜索－－－－－－－－－－－－－－－－－－－－－-->
+        <div id="nav_search">
+            <ul id="nav">
+            <li class='tooltip'><a href="javascript:void(0)" class="selected">首页</a></li>
+                <?php
+                foreach($categories as $row){
+                        //var_dump($row);
+                    $Name=$row['catname'];
+                    $Id=$row['catid'];
+                    echo "<li class='tooltip'><a href='\yynews\index.php\Home\News\\newslist?catId=$Id'>$Name</a></li>";
+                }
+                ?>
+            </ul>
+            <div id="search_div">
+                <form action="__MODULE__/News/newssearch" method="post" style="text-align:center;">
+                        <input type="text" name="searchContent" id="search_content" class="comment_text" />
+                        <div id="search_submit">搜索</div>
+                    <input type="submit" class="hidden" id="search_submit_input"/>
+                </form>
+            </div>
+        </div>
+        <!--－－－－－－－－－－－－main－－－－－－－－－－－－－－－－－－－－－-->
+        <div id="main">
+            
+            <div id="register_form">
+                <form action="__SELF__" method="post">
+                    <table>
+                        <tr>
+                            <td>新&nbsp用&nbsp户&nbsp名:</td>
+                            <td> <input type="text" name="uname"  style="height:23px;width:160px"/></td>
+                        </tr>
+                        <tr>
+                            <td>输&nbsp入&nbsp密&nbsp码:&nbsp</td>
+                            <td><input type="password" name="upassword1" style="height:23px;width:160px"/></td>
+                        </tr>
+                        <tr>
+                            <td>再次输入密码:&nbsp</td>
+                            <td><input type="password" name="upassword2"  style="height:23px;width:160px"/></td>
+                        </tr>
+                    </table>
+                    <input type="submit" name="register" value="完成注册"  style="margin-top:18px;width:81px;height:32px;margin-left:120px;font-size:17px;font-family:'微软雅黑'"/>
+                </form>
+            </div>
+            
+        </div>
+        <!--－－－－－－－－－－－－footer－－－－－－－－－－－－－－－－－－－－－-->
+        <div id="footer">
+            <font color=#909090 size="3px"/>版权所有  |<a href="http://www.csust.edu.cn/pub/cslg/jgsz/yxsz/jsjytxgcxy/"> 长沙理工大学计算机与通信工程学院</a>
+        </div>
+    </body>
+    </html>

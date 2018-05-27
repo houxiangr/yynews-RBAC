@@ -1,0 +1,14 @@
+[ 2017-01-04T11:31:50+08:00 ] ::1 /yynews/index.php/Home/News/shownews?newsId=13
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select title,content from news where newsId=
+
+[ 2017-01-04T13:00:19+08:00 ] ::1 /yynews/index.php/Home/Index/searchResult.php
+ERR: 非法操作:searchResult.php
+
+[ 2017-01-04T13:00:26+08:00 ] ::1 /yynews/index.php/Home/Index/searchResult.php
+ERR: 非法操作:searchResult.php
+
+[ 2017-01-04T14:48:27+08:00 ] ::1 /yynews/index.php/Home/News/newssearch
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'news.content like %资源%' at line 1
+ [ SQL语句 ] : select newsId,title,createTime,catName from news join categories on news.catId=categories.catId news.content like %资源%
+
