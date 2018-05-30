@@ -5,7 +5,7 @@ return array(
 	'DEFAULT_MODULE'        =>  'Home',  // 默认模块
     'DEFAULT_CONTROLLER'    =>  'Index', // 默认控制器名称
     'DEFAULT_ACTION'        =>  'index', // 默认操作名称
-    'DB_TYPE'               =>  'mysql',     // 数据库类型
+    'DB_TYPE'               =>  'mysqli',     // 数据库类型
     'DB_HOST'               =>  'localhost', // 服务器地址
     'DB_NAME'               =>  'yynews',          // 数据库名
     'DB_USER'               =>  'root',      // 用户名
